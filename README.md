@@ -27,11 +27,11 @@ Valoriza é uma plataforma para promover o reconhecimento entre companheiros de 
 
 - Clone o repositório
 - Rode `yarn` para baixar as dependências
-- Rode `docker run --name banco -e POSTGRES_PASSWORD=docker -p 5432:5432 -d` para criar uma imagem do postgres
+- Rode `docker run --name banco -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres` para criar uma imagem do postgres
 - Rode `yarn typeorm migration:run` para criar as tabelas do banco de dados.
 - Rode o `yarn dev` para iniciar a aplicação.
 
-Por fim, a aplicação estará disponível em `http://localhost:3000`
+Por fim, a aplicação estará disponível em `http://localhost:3333`
 
 ## 📄 Licença
 
